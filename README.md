@@ -1,6 +1,10 @@
 ## Intune device authentication demo
 
-This software demonstrates how an application can require devices to be associated with InTune in order to access resources.
+This software demonstrates how an application can require devices to be associated with InTune in order to access 
+resources.  By looking the client up by ID, it is possible to determine the MDM status, user, compliance, MAC address, 
+etc.
+
+![Screen Shot](https://raw.githubusercontent.com/kategray/IntuneSSLAuthenticationDemo/master/doc/screen_shot.png)
 
 When a device is managed by Intune, it is provided a SSL Certificate from the Microsoft Intune Device CA.  We can use 
 this certificate to identify the device and ensure that it's in compliance.
