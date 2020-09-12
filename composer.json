@@ -1,0 +1,19 @@
+{
+  "authors": [
+    {
+      "name": "Kate Gray",
+      "email": "opensource@codebykate.com"
+    }
+  ],
+  "description": "Authentication Demo using Intune SSL Certificates",
+  "license": "WTFPL",
+  "minimum-stability": "stable",
+  "name": "kategray/intuneauth",
+  "require": {
+    "symfony/dotenv": "^5.1",
+    "symfony/cache": "^5.1",
+    "monolog/monolog": "^2.1",
+    "microsoft/microsoft-graph": "^1.18",
+    "guzzlehttp/guzzle": "^7.0"
+  }
+}

@@ -1,0 +1,5 @@
+.env.local
+var/
+vendor/
+composer.phar
+.idea/
